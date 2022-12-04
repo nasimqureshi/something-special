@@ -1,3 +1,47 @@
-* {
-    box-sizing: border-box;
+
+.container {
+    border: 2px solid black;
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.hex-color {
+    border: 1px solid black;
+    text-align: center;
+}
+.hex-color h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: changecolor 5% infinite alternate;
+}
+.hex-color h2 {
+    border: 2px solid black;
+    font-size: 2rem;
+    margin-top: 15%;
+}
+@keyframes colorchange {
+    0% {
+        color: indigo;
+    }
+    0% {
+        color: indigo;
+    }
+    0% {
+        color: indigo;
+    }
+    0% {
+        color: indigo;
+    }
+    0% {
+        color: indigo;
+    }
+    0% {
+        color: indigo;
+    }
+    
+
+    
+
 }
